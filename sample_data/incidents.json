@@ -1,0 +1,12 @@
+[
+  {"IncidentNumber": 1001, "Title": "Suspicious sign-in from unfamiliar location", "Severity": "Medium",
+   "Description": "User j.doe@example.com signed in from 203.0.113.45 after failed MFA attempts from 198.51.100.23."},
+  {"IncidentNumber": 1002, "Title": "Device code phishing attempt", "Severity": "High",
+   "Description": "Device code authentication initiated from 192.0.2.77; phishing link hosted on login-verify.example.com."},
+  {"IncidentNumber": 1003, "Title": "Malicious file detected on endpoint", "Severity": "High",
+   "Description": "Defender flagged file with SHA256 3f786850e387550fdab836ed7e6dc881de23001b3f786850e387550fdab836ed on host WS-042, beaconing to 203.0.113.200."},
+  {"IncidentNumber": 1004, "Title": "Impossible travel", "Severity": "Low",
+   "Description": "Sign-ins for a.smith@example.com from 198.51.100.8 and 192.0.2.150 within 20 minutes."},
+  {"IncidentNumber": 1005, "Title": "Outbound connection to newly registered domain", "Severity": "Medium",
+   "Description": "Proxy logs show HTTPS traffic to update-cdn.example.net from 10.0.4.12 (internal) to 203.0.113.99."}
+]
